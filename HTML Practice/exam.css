@@ -1,0 +1,60 @@
+body{
+	background-color:white
+}
+
+h1 {
+	color: red;
+	font-size: 30px;
+	font-family: verdana;
+	text-align:center;
+}
+
+.image {
+	width:500px;
+	height:400px;
+}
+
+P  {
+	color: blue;
+	font-size:20px;
+}
+
+.vitamins {
+	font-family: verdana;
+        color:red;
+}
+
+.fruits {
+	font-family: geneva;
+	color: red;
+}
+
+table,tr,td,th {
+	border: 2px solid blue;
+        cell-width: 20 px;
+	text-align: center;
+	padding:20px;
+	border-radius:10px;
+}
+.Brinjal{
+	width:42px;
+	height:42px;
+}
+button{
+	color:brown;
+	font-size:20px;
+	background-color:white; 
+	font-style:italic;
+}
+span {
+	font-weight:bold;
+}
+div {
+	text-align:center;
+	background-color:skyblue;
+}
+
+ol {
+	font-size:20px;
+	color:blue;
+}
