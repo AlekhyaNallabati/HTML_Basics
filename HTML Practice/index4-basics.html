@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+
+			<title>Basics of html</title>
+			<link rel="stylesheet" href="styles-basics.css">
+
+		</head>
+		<body>
+			<h1>Blockline And Inline Elements</h1>
+
+			<div class="city">
+				<h1>London</h1>
+				<p>London is the capital city of England</p>
+			</div>
+
+			<h1>Paris</h1>
+			<p>Paris is the capital city of <span class="note">France</span></p>
+
+			<h1 class="city note">London</h1>
+			<p class="note">London is the capital city of England</p>
+
+			<br>
+			<hr>
+			<br>
+			<h1>HTML ID</h1>
+			<p> <a href="#c2">jump to c2</a> </p>
+			<p> <a href="#c8">Jump to c8</a> </p>
+
+			<h2>Chapter1</h2>
+
+			<h2 id="c2">Chapter2</h2>
+
+			<h2 >Chapter3</h2>
+
+			<h2>Chapter4</h2>
+
+			<h2>Chapter5</h2>
+
+			<h2>Chapter6</h2>
+
+			<h2>Chapter7</h2>
+
+			<h2 id="c8">Chapter8</h2>
+
+			<br>
+			<hr>
+			<br>
+
+			<iframe src="iframes/iframe.html" name="iframe_a" title="iframe.html" width="200" height="200"></iframe>
+			<p class="iframe"><a href="iframes/iframe.html" target="iframe_a">iframe</a></p>
+
+			<br>
+			<hr>
+			<br>
+
+            <P id="note"></P>
+			<script>
+		     document.getElementById("note").innerHTML = "Hello Javascript";
+			</script>
+
+			<br>
+			<hr>
+			<br>
+			
+			<h3 class="File">File path examples <br><br> Relative File Paths</h3>
+
+			<p>
+				The picture file is located in the same folder as the current page.<br>
+			        <img src="Kushi_1@8.JPG" width="200" height="200" >
+		    </p>
+
+			<p>
+				The "picture.JPPG" file is located in the images folder in the current folder.<br>
+				     <img src="images/Kushi2.jpeg" width="200" height="200">
+			</p>
+
+			<p>
+				The "picture.jpeg" file is locate in the images folder at the root of the current web.<br>
+				<img src="/images/VEGETABLES/brinjal.jpeg" width="200" height="200">
+			</p>
+
+			<P>
+				 The "picture.jpg" file is located in the folder one level up from the current folder.<br>
+				 <img src="../kushi/Kushi_2@8.JPG" width="200" height="200">
+			</P>
+
+			<h3 class="File">Absolute File Paths</h3>
+			<p>
+				It is the full URL to a file.<br>
+				<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+			</p>
+			
+
+		</body>
+	</html>
+		

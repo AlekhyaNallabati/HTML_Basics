@@ -1,0 +1,24 @@
+.city {
+  border: 2px solid black;
+  background-color:	rgb(147, 125, 125);
+  font-family: 'Courier New', Courier, monospace;
+  color:rgb(66, 3, 13)
+}
+
+.note {
+  font-style : italic;
+}
+
+.iframe{
+  font-size: 200%;
+}
+
+#note {
+  font-style : italic;
+}
+
+.File {
+  font-size: 200%;
+  color: blueviolet;
+  text-decoration: dashed;
+}

@@ -1,0 +1,49 @@
+/* body{
+    margin-left: 37%;
+} */
+
+.main-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #541b78;
+}
+
+.table-caption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: brown;
+}
+
+.table-heading {
+    font-style: italic;
+}
+
+
+table, th, td {
+    border: 2px solid rgb(177, 14, 22);
+}
+
+th {
+    color: green;
+    font-size: 30px;
+    padding: 10px;
+}
+
+td {
+    color: magenta;
+    font-size: 20px;
+    padding: 10px;
+}
+
+h1 {
+    font-style: oblique;
+    color: tomato;
+    font-size: 30px;
+}
+
+p {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(66, 18, 197);
+}
+
+
