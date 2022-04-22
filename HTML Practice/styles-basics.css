@@ -22,3 +22,34 @@
   color: blueviolet;
   text-decoration: dashed;
 }
+
+header{
+  background-color: #666;
+  padding:30px;
+  text-align:center;
+  font-size:35px;
+  color:white;
+}
+
+nav{
+  background-color:#ccc;
+  padding:30px;
+  float:left;
+  width:30%;
+  height:300px;
+}
+
+article{
+  background-color: #f1f1f1;
+  padding:20px;
+  float:left;
+  width:70px;
+  height:300px;
+}
+
+footer{
+  background-color:#777;
+  padding:10px;
+  text-align:centre;
+  color: white;
+}

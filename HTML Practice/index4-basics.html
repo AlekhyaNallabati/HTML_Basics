@@ -1,97 +1,110 @@
 <!DOCTYPE html>
-	<html>
-		<head>
+<html>
 
-			<title>Basics of html</title>
-			<link rel="stylesheet" href="styles-basics.css">
+<head>
 
-		</head>
-		<body>
-			<h1>Blockline And Inline Elements</h1>
+	<title>Basics of html</title>
+	<link rel="stylesheet" href="styles-basics.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" width="device-width" initial-scale="1.0">
+	<base target="blank">
+</head>
 
-			<div class="city">
-				<h1>London</h1>
-				<p>London is the capital city of England</p>
-			</div>
+<body>
+	<h1>Blockline And Inline Elements</h1>
 
-			<h1>Paris</h1>
-			<p>Paris is the capital city of <span class="note">France</span></p>
+	<div class="city">
+		<h1>London</h1>
+		<p>London is the capital city of England</p>
+	</div>
 
-			<h1 class="city note">London</h1>
-			<p class="note">London is the capital city of England</p>
+	<h1>Paris</h1>
+	<p>Paris is the capital city of <span class="note">France</span></p>
 
-			<br>
-			<hr>
-			<br>
-			<h1>HTML ID</h1>
-			<p> <a href="#c2">jump to c2</a> </p>
-			<p> <a href="#c8">Jump to c8</a> </p>
+	<h1 class="city note">London</h1>
+	<p class="note">London is the capital city of England</p>
 
-			<h2>Chapter1</h2>
+	<br>
+	<hr>
+	<br>
+	<h1>HTML ID</h1>
+	<p> <a href="#c2">jump to c2</a> </p>
+	<p> <a href="#c8">Jump to c8</a> </p>
 
-			<h2 id="c2">Chapter2</h2>
+	<h2>Chapter1</h2>
 
-			<h2 >Chapter3</h2>
+	<h2 id="c2">Chapter2</h2>
 
-			<h2>Chapter4</h2>
+	<h2>Chapter3</h2>
 
-			<h2>Chapter5</h2>
+	<h2>Chapter4</h2>
 
-			<h2>Chapter6</h2>
+	<h2>Chapter5</h2>
 
-			<h2>Chapter7</h2>
+	<h2>Chapter6</h2>
 
-			<h2 id="c8">Chapter8</h2>
+	<h2>Chapter7</h2>
 
-			<br>
-			<hr>
-			<br>
+	<h2 id="c8">Chapter8</h2>
 
-			<iframe src="iframes/iframe.html" name="iframe_a" title="iframe.html" width="200" height="200"></iframe>
-			<p class="iframe"><a href="iframes/iframe.html" target="iframe_a">iframe</a></p>
+	<br>
+	<hr>
+	<br>
 
-			<br>
-			<hr>
-			<br>
+	<iframe src="iframes/iframe.html" name="iframe_a" title="iframe.html" width="200" height="200"></iframe>
+	<p class="iframe"><a href="iframes/iframe.html" target="iframe_a">iframe</a></p>
 
-            <P id="note"></P>
-			<script>
-		     document.getElementById("note").innerHTML = "Hello Javascript";
-			</script>
+	<br>
+	<hr>
+	<br>
 
-			<br>
-			<hr>
-			<br>
-			
-			<h3 class="File">File path examples <br><br> Relative File Paths</h3>
+	<P id="note"></P>
+	<script>
+		document.getElementById("note").innerHTML = "Hello Javascript";
+	</script>
 
-			<p>
-				The picture file is located in the same folder as the current page.<br>
-			        <img src="Kushi_1@8.JPG" width="200" height="200" >
-		    </p>
+	<br>
+	<hr>
+	<br>
 
-			<p>
-				The "picture.JPPG" file is located in the images folder in the current folder.<br>
-				     <img src="images/Kushi2.jpeg" width="200" height="200">
-			</p>
+	<h3 class="File">File path examples <br><br> Relative File Paths</h3>
 
-			<p>
-				The "picture.jpeg" file is locate in the images folder at the root of the current web.<br>
-				<img src="/images/VEGETABLES/brinjal.jpeg" width="200" height="200">
-			</p>
+	<p>
+		The picture file is located in the same folder as the current page.<br>
+		<img src="Kushi_1@8.JPG" width="200" height="200">
+	</p>
 
-			<P>
-				 The "picture.jpg" file is located in the folder one level up from the current folder.<br>
-				 <img src="../kushi/Kushi_2@8.JPG" width="200" height="200">
-			</P>
+	<p>
+		The "picture.JPPG" file is located in the images folder in the current folder.<br>
+		<img src="images/Kushi2.jpeg" width="200" height="200">
+	</p>
 
-			<h3 class="File">Absolute File Paths</h3>
-			<p>
-				It is the full URL to a file.<br>
-				<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
-			</p>
-			
+	<p>
+		The "picture.jpeg" file is locate in the images folder at the root of the current web.<br>
+		<img src="/images/VEGETABLES/brinjal.jpeg" width="200" height="200">
+	</p>
 
-		</body>
-	</html>
-		
+	<P>
+		The "picture.jpg" file is located in the folder one level up from the current folder.<br>
+		<img src="../kushi/Kushi_2@8.JPG" width="200" height="200">
+	</P>
+
+	<h3 class="File">Absolute File Paths</h3>
+	<p>
+		It is the full URL to a file.<br>
+		<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+	</p>
+
+	<h2>
+		CSS LAYOUT FLOAT
+	</h2>
+
+	<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will
+		stack on top of each other.</p>
+
+	<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML
+		Responsive.)</p>
+
+</body>
+
+</html>
